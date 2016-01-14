@@ -1,0 +1,38 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.front-page.demo {
+  display: table;
+  width: 100%;
+}
+
+.front-page.container {
+	width: 92%;
+}
+
+.front-page.container iframe {
+	opacity:0.8;
+}
+
+.front-page.subcontainer {
+	width:45%;
+	height: 100%;
+	display: table-cell;
+}
+
+.front-page.subcontainer-right {
+	padding-left: 18px;
+	width:55%;
+}
+
+.front-page.subcontainer-left {
+	width: 40%
+}
+
+.front-page.crawl-item {
+	border-radius: 5px;
+	padding:5px;
+	cursor: pointer;
+}
+
